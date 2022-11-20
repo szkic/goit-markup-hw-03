@@ -1,0 +1,198 @@
+:root {
+  --blue-text: #2196f3;
+  --black-text: #000;
+  --grey-text: #212121;
+  --white: #fff;
+  --light-grey: #757575;
+  --dimmed-white: #ffffff60;
+  --team-background-color: #f5f4fa;
+  --darkGrey-background-color: #2f303a;
+  --lightGrey-background-color: #e5e5e5;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--grey-text);
+}
+
+/* logo */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  color: var(--black-text);
+  text-decoration: none;
+}
+
+.logo-blue {
+  color: var(--blue-text);
+}
+
+.logo-white {
+  color: var(--white);
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.17;
+  color: inherit;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--blue-text);
+}
+
+/* title */
+.title-description {
+  color: var(--white);
+  text-align: center;
+  background-color: var(--darkGrey-background-color);
+}
+
+.title-text {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.title-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background-color: var(--blue-text);
+  border-style: none;
+}
+
+.title-button:hover {
+  cursor: pointer;
+}
+
+/* advantages */
+.advantages-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+}
+
+.advantages-desc {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--light-grey);
+}
+
+/* what we do */
+.what-we-do {
+  text-align: center;
+}
+
+/* title page headers */
+.heading {
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+}
+
+/* team */
+.team {
+  text-align: center;
+  background-color: var(--team-background-color);
+}
+
+.team-box {
+  background-color: var(--white);
+}
+
+.team-employe {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+}
+
+.team-job {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  color: var(--light-grey);
+}
+
+/* portfolio */
+.portfolio-elements {
+  text-align: center;
+}
+
+/* portfolio buttons */
+.portfolio-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  border-style: none;
+  background-color: var(--team-background-color);
+}
+
+.portfolio-button:hover {
+  background-color: var(--blue-text);
+  color: var(--white);
+  cursor: pointer;
+}
+
+/* portfolio elements */
+.portfolio-project {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--light-grey);
+}
+
+/* footer */
+.contact {
+  color: var(--white);
+  background-color: var(--darkGrey-background-color);
+}
+
+.contact-page-link {
+  color: var(--dimmed-white);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address-info {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contact-page-link:hover,
+.contact-page-link:focus {
+  text-decoration: underline;
+}
+
+/* lists without styles */
+.list {
+  list-style-type: none;
+}
