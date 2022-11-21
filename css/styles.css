@@ -10,30 +10,9 @@
   --lightGrey-background-color: #e5e5e5;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--grey-text);
-
-  /* hw-03 */
-  width: 1600px;
-}
-
-.container {
-  width: 1200px;
-  margin-left: 215px;
-  /* margin-right: 200px; */
-  /* padding czy margin??? */
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 /* logo */
@@ -82,10 +61,6 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-
-  /* hw-03 */
-  margin: 106px 237px 30px;
-  width: 696px;
 }
 
 .title-button {
@@ -97,12 +72,6 @@ body {
   color: var(--white);
   background-color: var(--blue-text);
   border-style: none;
-
-  /* hw-03 */
-  width: 200px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 106px;
 }
 
 .title-button:hover {
