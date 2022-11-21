@@ -15,6 +15,17 @@ body {
   color: var(--grey-text);
 }
 
+.container {
+  width: 1200px;
+  margin-left: 215px;
+  margin-right: 215px; /* padding czy margin??? */
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* logo */
 .logo {
   font-family: Raleway;
