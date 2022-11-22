@@ -16,6 +16,8 @@ body {
 }
 
 h1,
+h2,
+h3,
 ul,
 p {
   margin: 0;
@@ -161,6 +163,11 @@ p {
 }
 
 /* what we do */
+.what-we-do-images-list {
+  display: flex;
+  gap: 30px;
+}
+
 .what-we-do {
   text-align: center;
 }
@@ -170,6 +177,9 @@ p {
   font-size: 36px;
   letter-spacing: 0.03em;
   line-height: 1.17;
+
+  /* hw-03 */
+  margin-bottom: 50px;
 }
 
 /* team */
