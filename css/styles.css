@@ -15,6 +15,10 @@ body {
   color: var(--grey-text);
 }
 
+h1 {
+  margin: 0;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -30,6 +34,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 15px 0;
 }
 
 .nav-list {
@@ -89,12 +94,22 @@ body {
   background-color: var(--darkGrey-background-color);
 }
 
+.title-description > div {
+  padding: 106px 0;
+}
+
 .title-text {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+
+  /* hw-03 */
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
 .title-button {
@@ -106,6 +121,10 @@ body {
   color: var(--white);
   background-color: var(--blue-text);
   border-style: none;
+
+  /* hw-03 */
+  padding: 10px 41px;
+  border-radius: 4px;
 }
 
 .title-button:hover {
