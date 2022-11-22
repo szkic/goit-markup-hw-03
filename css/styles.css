@@ -15,7 +15,9 @@ body {
   color: var(--grey-text);
 }
 
-h1 {
+h1,
+ul,
+p {
   margin: 0;
 }
 
@@ -34,7 +36,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 0;
+  padding: 25px 0;
 }
 
 .nav-list {
@@ -132,6 +134,15 @@ h1 {
 }
 
 /* advantages */
+.section-special {
+  padding-top: 94px;
+}
+
+.advantages-main {
+  display: flex;
+  gap: 30px;
+}
+
 .advantages-title {
   font-size: 14px;
   font-weight: 700;
@@ -144,6 +155,9 @@ h1 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--light-grey);
+
+  /* hw-03 */
+  width: 270px;
 }
 
 /* what we do */
