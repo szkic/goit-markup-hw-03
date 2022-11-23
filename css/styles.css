@@ -8,6 +8,7 @@
   --team-background-color: #f5f4fa;
   --darkGrey-background-color: #2f303a;
   --lightGrey-background-color: #e5e5e5;
+  --headerBorder: #ececec;
 }
 
 body {
@@ -33,6 +34,10 @@ p {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.header-border {
+  border-bottom: 1px solid var(--headerBorder);
 }
 
 .header-nav {
@@ -89,6 +94,10 @@ p {
   letter-spacing: 0.02em;
   line-height: 1.17;
   color: inherit;
+}
+
+.header-contact .nav-link {
+  color: var(--light-grey);
 }
 
 .nav-link:hover,

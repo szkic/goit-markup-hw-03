@@ -21,40 +21,44 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header class="header-border">
+      <div class="container header-nav">
         <a href="index.html" class="logo"><span class="logo-blue">Web</span>Studio</a>
         <nav>
-          <ul class="list">
+          <ul class="list nav-list">
             <li><a href="index.html" class="nav-link">Agencja</a></li>
             <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
             <li><a href="#" class="nav-link">Kontakt</a></li>
           </ul>
         </nav>
-        <ul class="list">
-          <li><a href="mailto:info@devstudio.com" class="nav-link">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111" class="nav-link">+48 111 111 111</a></li>
+        <ul class="list header-contact">
+          <li>
+            <a href="mailto:info@devstudio.com" class="nav-link">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+48111111111" class="nav-link">+48 111 111 111</a>
+          </li>
         </ul>
       </div>
     </header>
 
     <main>
-      <!-- przyciski -->
-      <div class="portfolio-elements container">
-        <ul class="list">
-          <li>
-            <button type="button" class="portfolio-button">Wszystkie</button>
-            <button type="button" class="portfolio-button">Strony</button>
-            <button type="button" class="portfolio-button">Aplikacje</button>
-            <button type="button" class="portfolio-button">Dizajn</button>
-            <button type="button" class="portfolio-button">Marketing</button>
-          </li>
-        </ul>
-      </div>
+      <div class="container">
+        <!-- przyciski -->
+        <div class="portfolio-elements">
+          <ul class="list">
+            <li>
+              <button type="button" class="portfolio-button">Wszystkie</button>
+              <button type="button" class="portfolio-button">Strony</button>
+              <button type="button" class="portfolio-button">Aplikacje</button>
+              <button type="button" class="portfolio-button">Dizajn</button>
+              <button type="button" class="portfolio-button">Marketing</button>
+            </li>
+          </ul>
+        </div>
 
-      <!-- elementy portfolio -->
-      <section class="portfolio-elements section">
-        <div class="container">
+        <!-- elementy portfolio -->
+        <section class="portfolio-elements section">
           <ul class="list">
             <li>
               <figure>
@@ -158,8 +162,8 @@
               </figure>
             </li>
           </ul>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
 
     <footer class="contact">
