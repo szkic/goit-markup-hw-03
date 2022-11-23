@@ -267,6 +267,10 @@ p {
 }
 
 /* footer */
+.contact .container {
+  padding: 60px 0px;
+}
+
 .contact {
   color: var(--white);
   background-color: var(--darkGrey-background-color);
