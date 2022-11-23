@@ -134,6 +134,7 @@ p {
   /* hw-03 */
   padding: 10px 41px;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .title-button:hover {
@@ -188,6 +189,12 @@ p {
 }
 
 /* team */
+.team-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
 .team {
   text-align: center;
   background-color: var(--team-background-color);
@@ -195,6 +202,10 @@ p {
 
 .team-box {
   background-color: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin: 0px;
 }
 
 .team-employe {
@@ -202,6 +213,10 @@ p {
   font-weight: 500;
   letter-spacing: 0.03em;
   line-height: 1.17;
+
+  /* hw-03 */
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .team-job {
@@ -209,6 +224,9 @@ p {
   letter-spacing: 0.03em;
   line-height: 1.17;
   color: var(--light-grey);
+
+  /* hw-03 */
+  padding-bottom: 30px;
 }
 
 /* portfolio */
