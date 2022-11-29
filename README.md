@@ -1,1 +1,1 @@
-https://github.com/szkic/goit-markup-hw-03
+https://szkic.github.io/goit-markup-hw-03/
