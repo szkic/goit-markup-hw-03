@@ -9,6 +9,7 @@
   --darkGrey-background-color: #2f303a;
   --lightGrey-background-color: #e5e5e5;
   --headerBorder: #ececec;
+  --greyBorderPortfolio: #eeeeee;
 }
 
 body {
@@ -161,7 +162,8 @@ p {
 
 .advantages-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
 }
 
 .advantages-title {
@@ -185,7 +187,8 @@ p {
 /* WHAT WE DO */
 .what-we-do-images-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
 }
 
 .what-we-do {
@@ -205,8 +208,8 @@ p {
 /* TEAM */
 .team-list {
   display: flex;
-  justify-content: space-between;
-  /* gap: 30px; */
+  justify-content: center;
+  gap: 30px;
 }
 
 .team {
@@ -279,20 +282,29 @@ p {
   border-radius: 4px;
 }
 
-/* PORTFOLIO ELEMENTS */
-.portfolio-elements-list {
-  display: flex;
-  justify-content: center;
-}
-
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
 }
 
 .portfolio-list figure {
   margin: 0px;
+}
+
+.portfolio-list figcaption {
+  border: 1px var(--greyBorderPortfolio) solid;
+  border-top: 0;
+  padding: 20px 24px;
+}
+
+.portfolio-list img {
+  display: block;
+}
+
+.portfolio-list h3 {
+  padding-bottom: 4px;
 }
 
 .portfolio-project {
