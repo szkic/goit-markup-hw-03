@@ -40,11 +40,16 @@ p {
   border-bottom: 1px solid var(--headerBorder);
 }
 
-.header-nav {
+.links {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 25px 0;
+}
+
+.left-link {
+  display: flex;
+  align-items: center;
 }
 
 .nav-list {
@@ -57,8 +62,6 @@ p {
 
 .header-contact {
   display: flex;
-  justify-content: space-between;
-  margin-left: 371px;
 }
 
 .header-contact > li:not(:last-child) {
