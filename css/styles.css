@@ -68,7 +68,7 @@ p {
   margin-right: 50px;
 }
 
-/* logo */
+/* LOGO */
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -88,6 +88,7 @@ p {
 
 .logo-white {
   color: var(--white);
+  margin-right: 0;
 }
 
 .nav-link {
@@ -108,7 +109,7 @@ p {
   color: var(--blue-text);
 }
 
-/* title */
+/* TITLE */
 .title-description {
   color: var(--white);
   text-align: center;
@@ -153,14 +154,14 @@ p {
   cursor: pointer;
 }
 
-/* advantages */
+/* ADVANTAGES */
 .section-special {
   padding-top: 94px;
 }
 
 .advantages-main {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
 }
 
 .advantages-title {
@@ -168,6 +169,7 @@ p {
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.17;
+  padding-bottom: 10px;
 }
 
 .advantages-desc {
@@ -180,17 +182,17 @@ p {
   width: 270px;
 }
 
-/* what we do */
+/* WHAT WE DO */
 .what-we-do-images-list {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
 }
 
 .what-we-do {
   text-align: center;
 }
 
-/* title page headers */
+/* TITLE PAGE HEADERS */
 .heading {
   font-size: 36px;
   letter-spacing: 0.03em;
@@ -200,11 +202,11 @@ p {
   margin-bottom: 50px;
 }
 
-/* team */
+/* TEAM */
 .team-list {
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
+  /* gap: 30px; */
 }
 
 .team {
@@ -241,12 +243,12 @@ p {
   padding-bottom: 30px;
 }
 
-/* portfolio */
+/* PORTFOLIO */
 .portfolio-elements {
   text-align: center;
 }
 
-/* portfolio buttons */
+/* PORTFOLIO BUTTONS */
 .buttons {
   margin-bottom: 50px;
 }
@@ -277,7 +279,7 @@ p {
   border-radius: 4px;
 }
 
-/* portfolio elements */
+/* PORTFOLIO ELEMENTS */
 .portfolio-elements-list {
   display: flex;
   justify-content: center;
@@ -307,7 +309,7 @@ p {
   color: var(--light-grey);
 }
 
-/* footer */
+/* FOOTER */
 .contact .container {
   padding: 60px 0px;
 }
@@ -323,6 +325,11 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  display: inline-block;
+}
+
+.contact-page-link:nth-child(2) {
+  padding: 9px 0;
 }
 
 .address-info {
@@ -330,6 +337,7 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  padding-top: 20px;
 }
 
 .contact-page-link:hover,
